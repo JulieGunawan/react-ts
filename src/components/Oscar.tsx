@@ -4,7 +4,7 @@ type OscarProps = {
 export const Oscar = (props:OscarProps) =>{
     return(
         <>
-            <h3>{props.children}</h3>
+            <h2>{props.children}</h2>
         </>
     )
 }
