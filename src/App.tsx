@@ -6,6 +6,7 @@ import { Heading } from './components/Heading';
 import {Oscar} from './components/Oscar';
 import {Button} from './components/Button';
 import {Input} from './components/Input';
+import {Container} from './components/Container';
 function App() {
   const nameList = [
     {
@@ -32,6 +33,7 @@ function App() {
       <Greet name="Julie" messageCount={10}isLogin={true}/>
       <Button handleClick={(event, id) => console.log('Click',event, id)}/>
       <Input value="" handleChange={(event) => console.log(event)}/>
+      <Container styles={{border: '1px solid black', padding: '10px'}}/>
     </div>
   );
 }
